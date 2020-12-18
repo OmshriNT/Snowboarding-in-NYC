@@ -1,59 +1,119 @@
-* {
-    box-sizing: border-box;
-}
+@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
 
-html {
-    font-size: 18px;
-    background-color: #405ED7;
-    font-family: "Open Sans", sans-serif;
+* {
+  box-sizing: border-box;
 }
 
 body {
-    background-color: #FADFF2;
-    border: 10px groove burlywood;
-    margin: 0 auto;
-    padding: 0 20px 20px 20px;
-    width: 700px;
+  background-color: #fff;
+  font-family: "Muli", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
 }
 
-img {
-    display: block;
-    margin: 0 auto;
-    border-radius: 5%;
+.img-container {
+  background-color: #e2e2e2;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
 }
 
-h1 {
-    color: #F9335A;
-    margin: 0%;
-    padding: 20px 0;
-    text-align: center;
-    font-size: 50px;
-    text-shadow: 2px 2px 1px white;
+.img-title {
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin: 10px;
+  text-transform: uppercase;
 }
 
-button {
-    border: none;
-    border-radius: 18px;
-    background-color: #fff;
-    color: rgb(52, 245, 52);
-    display: block;
-    margin: 20px;
-    text-align: center;
-    font-size: 14px;
-    padding: 10px;
+.img-container img {
+  margin: 10px;
 }
 
-.container {
-     display: flex;
-     justify-content: center;
-     align-items: center;
-    background-color: crimson;
-    margin: 0 auto;
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  letter-spacing: 1px;
+  text-align: justify;
 }
 
-h3 {
-    color: rgb(8, 151, 247);
-    margin: 0%;
-    padding: 20px 0;
-    text-align: center;
+.content section {
+  background-color: #d2d2d2;
+  flex: 3;
+  margin-right: 10px;
+  padding: 20px;
+}
+
+.content aside {
+  background-color: #cab3b3;
+  padding: 20px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.like-btn {
+  background-color: rgba(0, 0, 0, 0.1);
+  border: 1px solid black;
+  border-radius: 50%;
+  display: block;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.like-btn i {
+  background: transparent;
+  font-size: 24px;
+  margin: 10px;
+}
+
+.like-btn:focus {
+  outline: 0;
+}
+
+.like-btn:active {
+  transform: scale(0.98);
+}
+
+.like-btn.active i {
+  color: blue;
+}
+
+aside p button {
+  background-color: #fff;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 10px;
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+aside p button:active {
+  transform: scale(0.98);
+}
+
+aside p button:focus {
+  outline: 0;
+}
+
+.content a {
+  text-decoration: none;
+}
+
+.content a:hover {
+  color: red;
+}
+
+.content a:focus {
+  color: springgreen;
 }

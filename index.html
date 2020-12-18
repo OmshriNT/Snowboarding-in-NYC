@@ -1,48 +1,64 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <link href="styles/style.css" rel="stylesheet" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Snowboarding in NYC</title>
   </head>
-
-  <head>
-    <h1>Snowboarding in the streets of NYC on a winter stormy day.</h1>
-
-    <img
-      src="images/snowboarding-in-nyc.png"
-      alt="Snowboarding in the streets of NYC."
-    />
-
-    <p>
-      Casey Neistat, an awesome YouTuber and filmmaker took the internet by
-      storm. On Jan 23, 2016, Casey decides to go on snowboarding pulled by a
-      custom-built car which was specially designed to run on the snow-covered
-      roads.
-    </p>
-
-    <p>
-      The dangerous stunt Casey pulled that day was certainly illegal. The NYPD
-      police cars couldn't keep up with the Jeep, because of the weather
-      condition. This became a preferable condition for people who are looking
-      for an adventurous day. Going up and down must have felt really good.
-    </p>
-
-    <p>
-      For the climax, Casey uplifted the American flag in the New York Times
-      Square. The people even cheered for him as he swift away. Watch the whole
-      video of
-      <a href="https://www.youtube.com/watch?v=qRv7G7WpOoU"
-        >Casey Neistat snowboarding in NYC.</a
-      >
-    </p>
-
-    <div class="container">
-      <h3>Write something to Casey by clicking on the button.</h3>
-
-      <button>Click here</button>
+  <body>
+    <div class="img-container">
+      <div class="img-title">
+        Snowboarding in the streets of NYC on a stormy winter day.
+      </div>
+      <img
+        src="./images/snowboarding-in-nyc.png"
+        alt="Snowboarding in the streets of NYC"
+      />
     </div>
 
-    <script src="scripts/main.js"></script>
-  </head>
+    <div class="content">
+      <section>
+        <p>
+          Casey Neistat, an awesome YouTuber and filmmaker took the internet by
+          storm. On Jan 23, 2016, Casey decides to go on snowboarding pulled by
+          a custom-built car which was specially designed to run on the
+          snow-covered roads. The dangerous stunt Casey pulled that day was
+          certainly illegal.
+        </p>
+        <p>
+          The NYPD police cars couldn't keep up with the Jeep, because of the
+          weather condition. This became a preferable condition for people who
+          are looking for an adventurous day. Going up and down must have felt
+          really good. For the climax, Casey uplifted the American flag in the
+          New York Times Square. The people even cheered for him as he swift
+          away.
+        </p>
+
+        <a href="https://www.youtube.com/watch?v=qRv7G7WpOoU" target="_blank"
+          >Watch the whole video of Casey Neistat snowboarding in NYC.</a
+        >
+      </section>
+      <aside>
+        Did You like the my article? <br />Click the like button to show some
+        love!
+
+        <button class="like-btn">
+          <i class="fas fa-thumbs-up"></i>
+        </button>
+
+        <p>
+          Write something to Casey by clicking on the button.
+          <button class="prompt-btn">Click here</button>
+        </p>
+      </aside>
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>
