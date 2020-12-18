@@ -1,4 +1,3 @@
-
 Snowboarding-in-NYC
 
 Hi!
@@ -8,3 +7,5 @@ I made a static web page article regarding Casey Neistat's viral video: snowboar
 You can type in message to Casey which will be displayed on the article itself using with the help of JS.
 
 Show him some love, Peace!
+
+# Version 2 (updated)
