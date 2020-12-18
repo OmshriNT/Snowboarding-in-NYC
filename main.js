@@ -38,6 +38,4 @@ else {
     myHeader.innerHTML = storedMessage;
 }
 
-myButton.onclick = function() {
-    setMessage();
-}
+myButton.addEventListener('click', setMessage);
