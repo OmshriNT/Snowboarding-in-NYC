@@ -117,3 +117,21 @@ aside p button:focus {
 .content a:focus {
   color: springgreen;
 }
+
+.blink-me {
+  font-family: inherit;
+  font-size: 18px;
+  text-transform: uppercase;
+  animation: blinker 1s linear infinite;
+  display: none;
+}
+
+.blink-me.active {
+  display: block;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
