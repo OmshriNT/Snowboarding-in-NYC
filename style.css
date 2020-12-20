@@ -84,6 +84,7 @@ body {
   flex: 3;
   margin-right: 10px;
   padding: 20px;
+  height: 350px;
 }
 
 .content aside {
@@ -94,6 +95,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  height: 350px;
 }
 
 .like-btn {
